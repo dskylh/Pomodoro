@@ -51,8 +51,6 @@ public class Pomodoro {
                 System.out.println("Work Session: ");
                 Clock clock = new Clock(session.sessionDuration() * 60);
                 clock.start();
-//                Sound sound = new Sound("resources/notif.mp3");
-//                sound.play();
             } else if (session.sessionType() == SessionType.ShortBreak) {
                 System.out.println("Short Break Time: ");
                 Clock clock = new Clock(session.sessionDuration() * 60);
